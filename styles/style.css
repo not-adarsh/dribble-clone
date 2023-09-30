@@ -1,0 +1,138 @@
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #F8F7F3;
+}
+.header{
+  display: flex;
+align-items: center;
+}
+.header img{
+  cursor: pointer;
+  width: 150px;
+}
+.logo{
+  width: 12.5%;
+  margin-left: 2.5%;
+}
+.navigation{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  
+}
+.navigation li{
+  font-weight: 550;
+  list-style: none;
+  margin-left: 4%;
+  transition: text-decoration 0.35s;
+}
+
+.navigation li:hover{
+  text-decoration: underline 3px;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: black;
+}
+.buttons{
+  justify-content: end;
+  margin-right: 2.5%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.buttons button{
+  margin-left: 2%;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 26px;
+  cursor: pointer;
+}
+.buttons .log-in {
+  
+  background-color: #F8F7F3;
+  
+}
+.buttons .log-in a{
+  color: black;
+}
+
+.buttons .sign-up{
+  background-color: black;
+  color: #F8F7F3; 
+}
+.buttons .sign-up a{
+  color: #F8F7F3;
+}
+
+
+.main{
+  margin-top: 175px;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right:25%;
+}
+.adv{
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 38px;
+  padding-right:38px ;
+  border-radius: 22px;
+  font-size:18px;
+  background-color: #F5E9B6;
+}
+.big-adv{
+  font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 35px;
+  font-size: 94px;
+}
+.hire{
+  margin-top: 25px;
+  font-size: 23px;
+}
+.but-cont{
+  margin-top: 105px;
+}
+.but-cont button{
+  cursor: pointer;
+  text-align: center;
+  padding: 20px;
+  font-size: 26px;
+  border: none;
+  background-color: black;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 33px;
+
+}
+.but-cont button a{
+  text-align: center;
+  color: white;
+}
