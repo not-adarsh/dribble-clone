@@ -1,0 +1,122 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor:default;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+.main{
+  display: flex;
+  height: 100%;
+}
+
+.content{
+  margin-left: 200px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+}
+.video-wrapper {
+  
+  width: 500px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  
+  
+}
+
+.logo-white{
+  position: relative;
+  width: 100px;
+  top:10%;
+}
+.video-promo{
+  position: relative;
+}
+.heading{
+  text-align: left;
+  font-weight:bold ;
+  font-size: 32px;
+}
+
+.google{
+  margin-top: 25px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 162px;
+  padding-left: 162px;
+  border-radius: 32px;
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.g-logo{
+  width: 55px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.text{
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.email{
+  margin-top: 25px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 192px;
+  padding-left: 192px;
+  border-radius: 32px;
+  color: black;
+  background-color: white;
+  border: 1px grey solid;
+  font-size: 22px;
+  cursor: pointer;
+}
+.end-t{
+  color: grey;
+  margin-top: 64px;
+  text-align: center;
+  width: 600px;
+  text-decoration: none;
+}
+.uc{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.text-sign{
+  margin-top: 25px;
+  color: grey;
+  font-size: 22px;
+}
+.text-sign a{
+  text-decoration: none;
+  color: black;
+  transition: text-decoration 0.15s,cursor 0.15s;
+}
+.text-sign a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
