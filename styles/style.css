@@ -39,12 +39,9 @@ align-items: center;
   font-weight: 550;
   list-style: none;
   margin-left: 4%;
-  transition: text-decoration 0.35s;
 }
 
-.navigation li:hover{
-  text-decoration: underline 3px;
-}
+
 
 .navigation a{
   text-decoration: none;
