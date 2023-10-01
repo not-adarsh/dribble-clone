@@ -1,20 +1,23 @@
-*{
+* {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  cursor:default;
+  cursor: default;
 }
-html,body{
+
+html,
+body {
   height: 100%;
   width: 100%;
 }
-.main{
+
+.main {
   display: flex;
   height: 100%;
 }
 
-.content{
+.content {
   margin-left: 200px;
   width: auto;
   display: flex;
@@ -31,92 +34,99 @@ video {
   width: 100%;
 
 }
+
 .video-wrapper {
-  
+
   width: 500px;
   height: 100%;
   position: relative;
   overflow: hidden;
   text-align: center;
   display: flex;
-  
-  
+
+
 }
 
-.logo-white{
+.logo-white {
   position: relative;
   width: 100px;
-  top:10%;
+  top: 10%;
 }
-.video-promo{
+
+.video-promo {
   position: relative;
 }
-.heading{
+
+.heading {
   text-align: left;
-  font-weight:bold ;
+  font-weight: bold;
   font-size: 32px;
 }
 
-.google{
+.google {
+  cursor: pointer;
   margin-top: 25px;
   padding-top: 18px;
   padding-bottom: 18px;
   padding-right: 162px;
   padding-left: 162px;
   border-radius: 32px;
-  color: white;
-  background-color: black;
-  border: none;
+  color: black;
+  background-color: white;
+  border: 1px solid grey;
   font-size: 22px;
   cursor: pointer;
 }
 
-.g-logo{
+.g-logo {
   width: 55px;
   cursor: pointer;
   vertical-align: middle;
 }
-.text{
-  cursor: pointer;
-  vertical-align: middle;
+
+.text-sign {
+  margin-top: 25px;
 }
 
-.email{
+.email {
   margin-top: 25px;
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-right: 192px;
-  padding-left: 192px;
-  border-radius: 32px;
-  color: black;
-  background-color: white;
-  border: 1px grey solid;
+  text-align: left;
+}
+
+.head {
+  margin-bottom: 12px;
+  font-weight: bold;
   font-size: 22px;
-  cursor: pointer;
-}
-.end-t{
-  color: grey;
-  margin-top: 64px;
-  text-align: center;
-  width: 600px;
-  text-decoration: none;
-}
-.uc{
-  cursor: pointer;
-  text-decoration: underline;
 }
 
-.text-sign{
+input {
+  margin-bottom: 12px;
+  width: 100%;
+  font-size: 32px;
+  border-radius: 18px;
+  border: 2px solid grey;
+  padding: 8px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 18px;
+  font-size: 22px;
+  border-radius: 32px;
+  border: none;
+  background-color: black;
+  color: white;
   margin-top: 25px;
-  color: grey;
-  font-size: 18px;
-}
-.text-sign a{
-  text-decoration: none;
-  color: black;
-  transition: text-decoration 0.15s,cursor 0.15s;
-}
-.text-sign a:hover{
   cursor: pointer;
+}
+
+.link {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: text-decoration 0.15s;
+}
+.link:hover{
   text-decoration: underline;
 }
